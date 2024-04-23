@@ -12,10 +12,15 @@ let favoriteColor = prompt("Inserici il tuo colore preferito:");
 console.log("L'utente ha inserito " + (favoriteColor));
 
 
+/* GENERAZIONE NUMERO RANDOM */
+let randomNumber = Math.floor((Math.random() * 100) + 1);
+
+console.log("Numero random generato: " + (randomNumber));
+
 /* LOG DI TUTTI GLI INPUT DEL UTENTE */
 console.log(
     `
-    I dato inseriti sono nome: ${firstName} , il suo cognome: ${surName} e il suo colore preferito: ${favoriteColor}
+    I dato inseriti sono nome: ${firstName} , il suo cognome: ${surName} e il suo colore preferito: ${favoriteColor} numero casuale ${randomNumber}
     `
 )
 
