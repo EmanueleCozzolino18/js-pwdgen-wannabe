@@ -26,6 +26,6 @@ console.log(
     I dato inseriti sono nome: ${firstName} , il suo cognome: ${surName} e il suo colore preferito: ${favoriteColor} numero casuale ${randomNumber}
     `
 )
-
+/* OUTPUT VISIBILE AL UTENTE SU PAGINA */
 currentCont = `${currentCont}${firstName}${surName}${favoriteColor}${randomNumber}`;
 currentId.innerHTML = currentCont;
