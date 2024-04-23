@@ -8,3 +8,14 @@ console.log("L'utente ha inserito " + (firstName)); /* LOG DEL CONTENUTO DELLA V
 let surName = prompt("Inserici il tuo congonome:");
 console.log("L'utente ha inserito " + (surName));
 
+let favoriteColor = prompt("Inserici il tuo colore preferito:");
+console.log("L'utente ha inserito " + (favoriteColor));
+
+
+/* LOG DI TUTTI GLI INPUT DEL UTENTE */
+console.log(
+    `
+    I dato inseriti sono nome: ${firstName} , il suo cognome: ${surName} e il suo colore preferito: ${favoriteColor}
+    `
+)
+
