@@ -1,6 +1,9 @@
 /* STRICT MODE */
 "use strict";
 
+let currentId = document.getElementById("pass");
+let currentCont = currentId.innerHTML;
+
 let firstName = prompt("Inserisci il tuo nome:"); /* INSERIMENTO NOME AL INTERNO DELLA VARIABILE FISTNAME */
 console.log("L'utente ha inserito " + (firstName)); /* LOG DEL CONTENUTO DELLA VARIABILE FIRSTNAME */
 
@@ -24,3 +27,5 @@ console.log(
     `
 )
 
+currentCont = `${currentCont}${firstName}${surName}${favoriteColor}${randomNumber}`;
+currentId.innerHTML = currentCont;
